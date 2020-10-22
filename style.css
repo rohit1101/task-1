@@ -123,6 +123,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  margin: 5rem 0;
 }
 
 .showcase .show1,
@@ -168,4 +169,58 @@ body {
   line-height: 1.4;
   font-size: 1.7rem;
   padding: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #9342c5;
+
+  height: 40rem;
+  align-items: center;
+}
+
+.footer .one,
+.footer .second,
+.footer .third,
+.footer .fourth {
+  width: 16%;
+  height: 30rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer .one h1,
+.footer .second h1,
+.footer .third h1,
+.footer .fourth h1 {
+  font-size: 3rem;
+  padding: 4rem 0;
+  color: #bfa1db;
+}
+
+.footer .second p,
+.footer .third p,
+.footer .fourth p {
+  font-size: 1.7rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.footer .one i {
+  font-size: 2.1rem;
+  color: #1e1822;
+}
+
+.footer .second,
+.footer .third,
+.footer .fourth {
+  color: rgb(231, 154, 227);
+}
+
+.footer .third p,
+.footer .fourth p {
+  cursor: pointer;
 }
