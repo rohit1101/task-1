@@ -13,7 +13,7 @@ body {
 .wrap {
   height: 100vh;
   background-color: hsl(237, 40%, 49%);
-  background-image: url("/bg-desktop.svg");
+  background-image: url("./assets/bg-desktop.svg");
 }
 
 .nav {
