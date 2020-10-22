@@ -13,7 +13,7 @@ body {
 
 .wrap {
   height: 100vh;
-  background-color: hsl(257, 40%, 49%);
+  background-color: hsl(237, 40%, 49%);
   background-image: url("/bg-desktop.svg");
 }
 
@@ -74,5 +74,34 @@ body {
 
 .wrap .content .image img {
   width: 40rem;
-  height: 25rem;
+  height: 23rem;
+}
+
+.wrap .cards {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap .cards .card-1 {
+  background-color: #cea7e7;
+  width: 25rem;
+  height: 35rem;
+  margin: 0 3rem;
+  padding: 1rem 1rem;
+}
+
+.wrap .cards .card-2 {
+  background-color: #cea7e7;
+  width: 25rem;
+  height: 35rem;
+  margin: 0 3rem;
+  padding: 1rem 1rem;
+}
+
+.wrap .cards .card-3 {
+  background-color: #cea7e7;
+  width: 25rem;
+  height: 35rem;
+  margin: 0 3rem;
+  padding: 1rem 1rem;
 }
