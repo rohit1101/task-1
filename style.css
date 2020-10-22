@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.wrap {
+  height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("/bg-desktop.svg");
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ebe4fc;
+}
+
+.nav .logo {
+  display: flex;
+  padding: 3rem 0;
+}
+
+.nav .logo h1 {
+  padding: 0 1rem;
+  font-size: 2.5rem;
+}
+
+.nav .links {
+  display: flex;
+  padding: 3.5rem 0;
+}
+
+.nav .links p {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 0 2rem;
+  font-weight: 400;
+}
+
+.wrap .content {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap .content .text h1 {
+  font-size: 7rem;
+  color: #e5ddfa;
+}
+
+.wrap .content .text .para {
+  padding: 2rem 0;
+}
+
+.wrap .content .text .para p {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  padding: 0 1rem;
+  color: #cea7e7;
+}
+
+.wrap .content .text,
+.wrap .content .image {
+  margin: 2rem 0rem;
+  padding: 0 3.5rem;
+}
+
+.wrap .content .image img {
+  width: 40rem;
+  height: 25rem;
+}
