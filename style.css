@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -80,28 +79,93 @@ body {
 .wrap .cards {
   display: flex;
   justify-content: center;
+  margin-top: 7rem;
 }
 
-.wrap .cards .card-1 {
-  background-color: #cea7e7;
-  width: 25rem;
-  height: 35rem;
-  margin: 0 3rem;
-  padding: 1rem 1rem;
-}
-
-.wrap .cards .card-2 {
-  background-color: #cea7e7;
-  width: 25rem;
-  height: 35rem;
-  margin: 0 3rem;
-  padding: 1rem 1rem;
-}
-
+.wrap .cards .card-1,
+.wrap .cards .card-2,
 .wrap .cards .card-3 {
-  background-color: #cea7e7;
+  background-color: #e7daff;
   width: 25rem;
-  height: 35rem;
+  height: 45rem;
   margin: 0 3rem;
   padding: 1rem 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 7px 3px rgba(51, 29, 0, 0.3);
+  transition: 0.5s;
+}
+
+.wrap .cards .card-1:hover,
+.wrap .cards .card-2:hover,
+.wrap .cards .card-3:hover {
+  background-color: #ab8aec;
+  color: #f0eef5;
+}
+
+.wrap .cards .card-1 h1,
+.wrap .cards .card-2 h1,
+.wrap .cards .card-3 h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrap .cards .card-1 p,
+.wrap .cards .card-2 p,
+.wrap .cards .card-3 p {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.showcase {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.showcase .show1,
+.showcase .show2,
+.showcase .show3 {
+  margin: 4rem 0;
+  padding: 2rem 2rem;
+  width: 60%;
+  display: flex;
+
+  justify-content: space-around;
+  border-radius: 10px 10px 10px 10px;
+  /* box-shadow: 0px 0px 7px 3px rgba(51, 29, 0, 0.3); */
+  box-shadow: 0px 0px 7px 3px rgb(218, 214, 243);
+}
+
+.showcase .show1 img,
+.showcase .show2 img,
+.showcase .show3 img {
+  width: 30%;
+  height: 20rem;
+}
+
+.showcase .show1 .content,
+.showcase .show2 .content,
+.showcase .show3 .content {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+.showcase .show1 .content h1,
+.showcase .show2 .content h1,
+.showcase .show3 .content h1 {
+  font-size: 2.5rem;
+}
+
+.showcase .show1 .content p,
+.showcase .show2 .content p,
+.showcase .show3 .content p {
+  letter-spacing: 1.2;
+  line-height: 1.4;
+  font-size: 1.7rem;
+  padding: 1rem 0;
 }
