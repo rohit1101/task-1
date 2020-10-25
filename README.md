@@ -1,4 +1,4 @@
-## Convert this Image to Webpage(Use React or HTML, CSS)
+## Convert Design to Webpage(Using React or HTML, CSS) (Not responsive)
 
 ### Resources 
 
